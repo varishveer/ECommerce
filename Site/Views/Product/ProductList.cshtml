@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ModelAccessLayer.Models.ProductModel>;
+@{
+    ViewData["Title"] = "ProductList";
+   
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="text-center">
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        
+                        <th>Date</th>
+                        <th>Availability</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Image</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                @foreach (var d in Model)
+                {
+                    <tr class="text-center">
+                        <td>@d.Id</td>
+                        <td>@d.Name</td>
+                        <td>@d.Description</td>
+                        <td>@d.AddedDate</td>
+                        <td>@d.Availability</td>
+                        <td>@d.Price</td>
+                        <td>@d.Category</td>
+                        
+
+                        <td><img src="@d.ImageURL" height="150px" width="150px" /></td>
+                        <td>
+                            <a class="btn btn-sm btn-danger" asp-action="Delete" asp-controller="Product" asp-route-id="@d.Id">Delete</a>
+                            <a class="btn btn-sm btn-info" asp-action="Edit" asp-controller="Product" asp-route-id="@d.Id">Update</a>
+                        </td>
+
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\bin\Debug\net8.0\ModelAccessLayer.dll
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\bin\Debug\net8.0\ModelAccessLayer.pdb
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll

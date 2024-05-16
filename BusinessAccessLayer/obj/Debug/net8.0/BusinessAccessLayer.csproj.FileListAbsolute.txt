@@ -1,0 +1,17 @@
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\obj\Debug\net8.0\BusinessAccessLayer.csproj.AssemblyReference.cache
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\obj\Debug\net8.0\BusinessAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\obj\Debug\net8.0\BusinessAccessLayer.AssemblyInfoInputs.cache
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\obj\Debug\net8.0\BusinessAccessLayer.AssemblyInfo.cs
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\obj\Debug\net8.0\BusinessAccessLayer.csproj.CoreCompileInputs.cache
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\bin\Debug\net8.0\BusinessAccessLayer.deps.json
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\bin\Debug\net8.0\BusinessAccessLayer.dll
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\bin\Debug\net8.0\BusinessAccessLayer.pdb
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\bin\Debug\net8.0\ModelAccessLayer.dll
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\bin\Debug\net8.0\ModelAccessLayer.pdb
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\obj\Debug\net8.0\Business.395A7FC9.Up2Date
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\obj\Debug\net8.0\BusinessAccessLayer.dll
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\obj\Debug\net8.0\refint\BusinessAccessLayer.dll
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\obj\Debug\net8.0\BusinessAccessLayer.pdb
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\BusinessAccessLayer\obj\Debug\net8.0\ref\BusinessAccessLayer.dll

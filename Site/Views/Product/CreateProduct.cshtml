@@ -1,0 +1,64 @@
+﻿@using ModelAccessLayer.Models;
+@model ProductViewModel;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div>
+    <form asp-action="CreateProduct" method="post" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly"></div><input type="hidden" asp-for="ProductModel.Id" />
+        <div>
+            <h4><strong>Member Details</strong> </h4>
+
+            <table class="table table-sm table-bordered ">
+
+                <tr>
+                    <th> <label asp-for="ProductModel.Name"></label></th>
+                    <td> <input asp-for="ProductModel.Name" class="form-control" placeholder="Enter member name" /><span asp-validation-for="ProductModel.Name"></span></td>
+                </tr>
+                <tr>
+                    <th> <label asp-for="ProductModel.Description"></label></th>
+                    <td> <input asp-for="ProductModel.Description" class="form-control" placeholder="Enter member name" /><span asp-validation-for="ProductModel.Description"></span></td>
+                </tr>
+
+                <tr>
+                    <th> <label asp-for="ProductModel.AddedDate"></label></th>
+                    <td> <input asp-for="ProductModel.AddedDate" class="form-control" placeholder="Enter member name" /><span asp-validation-for="ProductModel.AddedDate"></span></td>
+                </tr>
+                <tr>
+                    <th> <label asp-for="ProductModel.Price"></label></th>
+                    <td> <input asp-for="ProductModel.Price" class="form-control" placeholder="Enter member name" /><span asp-validation-for="ProductModel.Price"></span></td>
+                </tr>
+                <tr>
+                    <th> <label asp-for="ProductModel.Availability"></label></th>
+                    <td> <input asp-for="ProductModel.Availability" class="form-control" placeholder="Enter member name" /><span asp-validation-for="ProductModel.Availability"></span></td>
+                </tr>
+                <tr>
+                    <th> <label asp-for="ProductModel.Category"></label></th>
+                    <td> <input asp-for="ProductModel.Category" class="form-control" placeholder="Enter member name" /><span asp-validation-for="ProductModel.Category"></span></td>
+                </tr>
+
+                
+
+
+                <tr>
+                    <th> <label asp-for="Image"></label></th>
+                    <td>
+                        <strong>Upload New File</strong>
+                        <div id="chooseFile"><input type="file" name="Image" accept="image/*" asp-for="Image" /></div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <th>  <button type="submit" class="btn btn-primary" style="width:107px">Save Info</button></th>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+
+</div>
