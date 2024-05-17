@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xc0+u/C+2NJ9cZk0tXnN6YfOYfi/rnncsNFHaZCe8ZJ5UCNvND+haQv8ISLl8AJU0Gh2MlheFGGjJ644mGaXog==",
+  "dgSpecHash": "I6iIyGDPsTalwzVsRkgHqsw2OoW5q8urPBBNKg7zUkomHEHLZOrLC3yEf2Q/WZKg6ns9KG8XW/e+r7DNyUQ5Iw==",
   "success": true,
-  "projectFilePath": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\BusinessAccessLayer\\BusinessAccessLayer.csproj",
+  "projectFilePath": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\BusinessAccessLayer\\BusinessAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\varis\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\varis\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

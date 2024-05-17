@@ -9,6 +9,9 @@ namespace BusinessAccessLayer.Abstraction
 {
 	public interface IOrderServices
 	{
-		public Task<bool> addProductToCart(int Id);
-	}
+		public Task<bool> AddProductToCart(int Id, string email);
+        public Task<bool> AddQuantity(int Id, int Quantity);
+        public Task<List<OrderModel>> OrderList();
+        public Task<bool> DeleteOrder(int Id);
+    }
 }

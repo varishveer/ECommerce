@@ -10,3 +10,16 @@ D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ModelAccessLayer\obj\De
 D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ModelAccessLayer\obj\Debug\net8.0\refint\ModelAccessLayer.dll
 D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ModelAccessLayer\obj\Debug\net8.0\ModelAccessLayer.pdb
 D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ModelAccessLayer\obj\Debug\net8.0\ref\ModelAccessLayer.dll
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ECommerce\ModelAccessLayer\bin\Debug\net8.0\ModelAccessLayer.deps.json
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ECommerce\ModelAccessLayer\bin\Debug\net8.0\ModelAccessLayer.dll
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ECommerce\ModelAccessLayer\bin\Debug\net8.0\ModelAccessLayer.pdb
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ECommerce\ModelAccessLayer\obj\Debug\net8.0\ModelAccessLayer.csproj.AssemblyReference.cache
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ECommerce\ModelAccessLayer\obj\Debug\net8.0\ModelAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ECommerce\ModelAccessLayer\obj\Debug\net8.0\ModelAccessLayer.AssemblyInfoInputs.cache
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ECommerce\ModelAccessLayer\obj\Debug\net8.0\ModelAccessLayer.AssemblyInfo.cs
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ECommerce\ModelAccessLayer\obj\Debug\net8.0\ModelAccessLayer.csproj.CoreCompileInputs.cache
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ECommerce\ModelAccessLayer\obj\Debug\net8.0\ModelAccessLayer.sourcelink.json
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ECommerce\ModelAccessLayer\obj\Debug\net8.0\ModelAccessLayer.dll
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ECommerce\ModelAccessLayer\obj\Debug\net8.0\refint\ModelAccessLayer.dll
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ECommerce\ModelAccessLayer\obj\Debug\net8.0\ModelAccessLayer.pdb
+D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ECommerce\ModelAccessLayer\obj\Debug\net8.0\ref\ModelAccessLayer.dll

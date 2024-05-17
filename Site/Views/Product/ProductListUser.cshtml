@@ -1,4 +1,6 @@
-﻿@model IEnumerable<ModelAccessLayer.Models.ProductModel>;
+﻿@using Microsoft.AspNetCore.Identity
+@using ModelAccessLayer.Models
+@model IEnumerable<ModelAccessLayer.Models.ProductModel>;
 
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -7,6 +9,8 @@
     ViewData["Title"] = "ProductListUser";
     Layout = "_LayoutUser";
 }
+	@inject SignInManager<ApplicationUser> SignInManager;
+	@inject UserManager<ApplicationUser> UserManager;
 
 
 <div class="container text-center">
@@ -19,7 +23,17 @@
                 <h6>@d.Name</h6>
                 <h6>@d.Description</h6>
                 <h6>@d.Price</h6>
-                <a class="btn btn-sm btn-info" asp-action="AddToCart" asp-controller="Order" asp-route-id="@d.Id ">Add To Cart</a>
+                @{
+                    var ID = Convert.ToString(d.Id);
+                    var routeData = new Dictionary<string, string>
+                {
+                    { "Id",  ID},
+                    { "User", UserManager.GetUserName(User) }
+                }; 
+             }
+                <a asp-controller="Home" asp-action="Details" asp-all-route-data="routeData">Details</a>
+
+                <a class="btn btn-sm btn-info" asp-action="AddToCart" asp-controller="Order" asp-all-route-data="routeData">Add To Cart</a>
 
                 
             </div>

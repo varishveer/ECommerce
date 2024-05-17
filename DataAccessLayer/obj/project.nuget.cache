@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l8qs7oPoZsRQCV9kQJwBtIVuhUp59BcLi/jtZtR33nHzYe99vHVAt3CD+YpwMI2UunTGj5Ef4H+Z7WSWvt8K9w==",
+  "dgSpecHash": "GIU70Xj8HZp9kV1aNGYaapUbYN3Yfm2GavkZZOgrOmKn0lTJVYvlukLmjDvINmudf/ImWnIKBIOGWbRK4M8hOg==",
   "success": true,
-  "projectFilePath": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\DataAccessLayer\\DataAccessLayer.csproj",
+  "projectFilePath": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\varis\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\varis\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

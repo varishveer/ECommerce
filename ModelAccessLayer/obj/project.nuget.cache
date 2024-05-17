@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RDqNmFEuuucoZe/dL/rZYJ8MkN1gLCWLIt2Jz8FFakEw4+6M3/srV92HaT0TGQsuSGR0hK/wB67Kzj6OfJWu/Q==",
+  "dgSpecHash": "z9vuZX6ixwZA7ejLORrevDH9BuGoJKaf8y1Uq7jBqYIlIH6WbMVM2veHTp+HqFlUMx+RYJfni0Of1Mgd8rClwg==",
   "success": true,
-  "projectFilePath": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ModelAccessLayer\\ModelAccessLayer.csproj",
+  "projectFilePath": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\ModelAccessLayer\\ModelAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\varis\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.4\\microsoft.aspnetcore.cryptography.internal.8.0.4.nupkg.sha512",
     "C:\\Users\\varis\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.4\\microsoft.aspnetcore.cryptography.keyderivation.8.0.4.nupkg.sha512",

@@ -17,87 +17,87 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Site
 build_property.RootNamespace = Site
-build_property.ProjectDir = D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\Site\
+build_property.ProjectDir = D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ECommerce\Site\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\Site
+build_property.MSBuildProjectDirectory = D:\Study\Asp.NetCore\Code First Aproach\OnlineStore\Site\ECommerce\Site
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Account/CheckEmailForgotPassword.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Account/CheckEmailForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGVja0VtYWlsRm9yZ290UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Account/ForgotPassword.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Account/Login.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Account/LoginAdmin.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Account/LoginAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbkFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Account/Registration.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Account/Registration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RyYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Account/RegistrationAdmin.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Account/RegistrationAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RyYXRpb25BZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Admin/UserList.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Admin/UserList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Home/Index.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Home/Privacy.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Product/CreateProduct.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Product/CreateProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGVQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Product/Edit.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Product/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Product/ProductList.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Product/ProductList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0TGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Product/ProductListUser.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Product/ProductListUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0TGlzdFVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Shared/Error.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Shared/_LayoutUser.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Shared/_LayoutUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/_ViewImports.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/_ViewStart.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/Site/Views/Shared/_Layout.cshtml]
+[D:/Study/Asp.NetCore/Code First Aproach/OnlineStore/Site/ECommerce/Site/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-99ebu3icm7

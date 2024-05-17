@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ModelAccessLayer\\ModelAccessLayer.csproj": {}
+    "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\ModelAccessLayer\\ModelAccessLayer.csproj": {}
   },
   "projects": {
-    "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ModelAccessLayer\\ModelAccessLayer.csproj": {
+    "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\ModelAccessLayer\\ModelAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ModelAccessLayer\\ModelAccessLayer.csproj",
+        "projectUniqueName": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\ModelAccessLayer\\ModelAccessLayer.csproj",
         "projectName": "ModelAccessLayer",
-        "projectPath": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ModelAccessLayer\\ModelAccessLayer.csproj",
+        "projectPath": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\ModelAccessLayer\\ModelAccessLayer.csproj",
         "packagesPath": "C:\\Users\\varis\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ModelAccessLayer\\obj\\",
+        "outputPath": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\ModelAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\varis\\AppData\\Roaming\\NuGet\\NuGet.Config",

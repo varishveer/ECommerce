@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Iu7bx3VxGNNK7Mymrww2iGVK2GJYAfDi7zqEk8TPPdhPVBGvnMOdyJIEjVi9bmaAVUYYXt/IVjfStDAhh2tiEg==",
+  "dgSpecHash": "fovuzuaWbffo8VgpLs3qB3pracau37CIT/AANiQ8l+NnQVj5yfPGLRHVCt0QKT89WsDV9m2ur/TmTOFYn5XeVQ==",
   "success": true,
-  "projectFilePath": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\Site\\Site.csproj",
+  "projectFilePath": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Site.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\varis\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\varis\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

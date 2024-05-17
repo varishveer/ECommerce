@@ -15,31 +15,44 @@ namespace BusinessAccessLayer.Implementation
 	{
 		private readonly ApplicationDbContext _context;
 		private readonly UserManager<ApplicationUser> _userManager;
-		public OrderServices(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
+		private readonly SignInManager<ApplicationUser> _signInManager;
+		public OrderServices(ApplicationDbContext context, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
 		{
 			_context = context;
 			_userManager = userManager;
+			_signInManager = signInManager;
 		}
-
-		public async Task<bool> addProductToCart(int Id)
+		
+		public async Task<bool> AddProductToCart(int Id, string email)
 		{
 			var getRow = await _context.Products.Where(p => p.Id == Id).FirstOrDefaultAsync();
 			if (getRow != null) 
-			{
-				/*List<OrderModel> orders = new List<OrderModel>()
-                {
-                    ProductName = getRow.Name,
-                    Price = getRow.Price,
-                    ProductId = getRow.Id,
-                    Quantity = 1
+			{	
+				OrderModel orders = new OrderModel()
+						{
+							ProductName = getRow.Name,
+							price = Convert.ToInt32(getRow.Price),
+							ProductId = Id,
+							quantity=1,
+							Email = email
                 };
-
-
-                await _context.Add(orders);*/
-			}
-			_context.SaveChanges();
-			return true;
-		}
+				await _context.Orders.AddAsync(orders);
+				await _context.SaveChangesAsync();
+                return true;
+            }
+			return false;
+        }
+		public async Task<bool> AddQuantity(int Id, int Quantity)
+		{
+            var getRow = await _context.Orders.Where(p => p.Id == Id).FirstOrDefaultAsync();
+			if(getRow != null)
+			{
+				getRow.quantity = Quantity;
+				await _context.SaveChangesAsync();
+                return true;
+            }
+			return false;
+        }
 		public async Task<List<OrderModel>> OrderList()
 		{
 			var orders = await _context.Orders.ToListAsync();
