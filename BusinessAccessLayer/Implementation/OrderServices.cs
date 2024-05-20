@@ -22,8 +22,8 @@ namespace BusinessAccessLayer.Implementation
 			_userManager = userManager;
 			_signInManager = signInManager;
 		}
-		
-		public async Task<bool> AddProductToCart(int Id, string email)
+		// Get Method For Add To Cart
+		public async Task<bool> AddProductToCart(int Id, string UserName)
 		{
 			var getRow = await _context.Products.Where(p => p.Id == Id).FirstOrDefaultAsync();
 			if (getRow != null) 
@@ -34,14 +34,27 @@ namespace BusinessAccessLayer.Implementation
 							price = Convert.ToInt32(getRow.Price),
 							ProductId = Id,
 							quantity=1,
-							Email = email
+							Email = UserName
                 };
 				await _context.Orders.AddAsync(orders);
 				await _context.SaveChangesAsync();
+                
                 return true;
             }
 			return false;
         }
+
+        public async Task<List<OrderModel>> OrderListUser(string UserName)
+        {
+            var getRow = await _context.Orders.Where(p =>p.Email ==UserName ).ToListAsync();
+            return getRow;
+        }
+        public async Task<List<OrderModel>> OrderList()
+		{
+			var result = await _context.Orders.ToListAsync();
+			return result;
+		}
+
 		public async Task<bool> AddQuantity(int Id, int Quantity)
 		{
             var getRow = await _context.Orders.Where(p => p.Id == Id).FirstOrDefaultAsync();
@@ -53,18 +66,16 @@ namespace BusinessAccessLayer.Implementation
             }
 			return false;
         }
-		public async Task<List<OrderModel>> OrderList()
-		{
-			var orders = await _context.Orders.ToListAsync();
-			return orders;
-		}
-
+		
+		// Delete Product From Order Table
 		public async Task<bool> DeleteOrder(int Id)
 		{
 			var getRow = await _context.Orders.Where(x => x.Id == Id).FirstOrDefaultAsync();
 			if(getRow == null) return false;	
-			 _context.Orders.Remove(getRow);	
-			return true;
+			 _context.Orders.Remove(getRow);
+            await _context.SaveChangesAsync();
+
+            return true;
 		}
 	}
 }

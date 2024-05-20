@@ -1,4 +1,5 @@
 ﻿using BusinessAccessLayer.Abstraction;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 
@@ -15,25 +16,46 @@ namespace Site.Controllers
 		{
 			return View();
         }
-		public async Task<IActionResult> AddToCart(int Id, string email) 
+		[HttpGet]
+        [Authorize(Roles = "USER")]
+        public async Task<IActionResult> AddToCart(int Id, string userName) 
+		{	
+
+             await _orderServices.AddProductToCart(Id, userName);
+            var result =await  _orderServices.OrderListUser(userName);
+            return View(result);
+        }
+		[HttpGet]
+		public async Task<IActionResult> Cart(string userName)
 		{
-			await _orderServices.AddProductToCart(Id, email);
-            return View();
-		}
-		public async Task<IActionResult> AddQuantityforProduct(int Id, int Quantity)
+            var result = await _orderServices.OrderListUser(userName);
+            return View(result);
+
+        }
+        [HttpGet]
+		[Authorize(Roles = "ADMIN")]
+        public async Task<IActionResult> OrderList()
+        {
+            var result =await _orderServices.OrderList();
+            return View(result);
+        }
+        public async Task<IActionResult> AddQuantityforProduct(int Id, int Quantity)
 		{
 			await _orderServices.AddQuantity(Id, Quantity);
 			return View();
         }
-        public async Task<IActionResult> OrderList() 
-		{ 
-			await _orderServices.OrderList();
-			return View();
-		}
+        
 		public async Task<IActionResult> Delete(int id)
 		{
 			await _orderServices.DeleteOrder(id);
-			return View();
-		}
+            return RedirectToAction(nameof(Cart));
+        }
+
+        public async Task<IActionResult> DeleteByAdmin(int id)
+        {
+            await _orderServices.DeleteOrder(id);
+            return RedirectToAction(nameof(OrderList));
+        }
+
     }
 }

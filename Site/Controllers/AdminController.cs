@@ -27,7 +27,7 @@ namespace ShoppingSite.Controllers
         public async Task<IActionResult> DeleteUser( string email)
         {
             await _services.DeleteUser(email);
-            return View(UserList);
+            return RedirectToAction(nameof(UserList));
         }
 
     }

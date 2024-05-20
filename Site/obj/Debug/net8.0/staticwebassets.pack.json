@@ -5,12 +5,36 @@
       "PackagePath": "staticwebassets\\Site.bundle.scp.css"
     },
     {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\assets\\Images\\Image.jpg",
-      "PackagePath": "staticwebassets\\assets\\Images\\Image.jpg"
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\assets\\Images\\Insignia.jpg",
+      "PackagePath": "staticwebassets\\assets\\Images\\Insignia.jpg"
     },
     {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\assets\\Images\\Sorting Visualizer fig1.png",
-      "PackagePath": "staticwebassets\\assets\\Images\\Sorting Visualizer fig1.png"
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\assets\\Images\\Lg108inchTv.webp",
+      "PackagePath": "staticwebassets\\assets\\Images\\Lg108inchTv.webp"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\assets\\Images\\LgUhdTv.webp",
+      "PackagePath": "staticwebassets\\assets\\Images\\LgUhdTv.webp"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\assets\\Images\\Samsung48Inches.webp",
+      "PackagePath": "staticwebassets\\assets\\Images\\Samsung48Inches.webp"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\assets\\Images\\SamsungLedTv.jpg",
+      "PackagePath": "staticwebassets\\assets\\Images\\SamsungLedTv.jpg"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\assets\\Images\\SonyBravia.jpeg",
+      "PackagePath": "staticwebassets\\assets\\Images\\SonyBravia.jpeg"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\assets\\Images\\TCL48InchesTV.png",
+      "PackagePath": "staticwebassets\\assets\\Images\\TCL48InchesTV.png"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\css\\ProductListUser.css",
+      "PackagePath": "staticwebassets\\css\\ProductListUser.css"
     },
     {
       "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\css\\animate.css",
@@ -47,6 +71,18 @@
     {
       "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\css\\styleForLoginUser.css",
+      "PackagePath": "staticwebassets\\css\\styleForLoginUser.css"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\css\\styleForLoginUser.css.map",
+      "PackagePath": "staticwebassets\\css\\styleForLoginUser.css.map"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\css\\styleForLoginUser.scss",
+      "PackagePath": "staticwebassets\\css\\styleForLoginUser.scss"
     },
     {
       "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\css\\tiny-slider.css",
@@ -2133,8 +2169,56 @@
       "PackagePath": "staticwebassets\\fonts\\icomoon.woff"
     },
     {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\fonts\\muli\\Muli-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\muli\\Muli-Bold.ttf"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\fonts\\muli\\Muli-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\muli\\Muli-Regular.ttf"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\fonts\\muli\\Muli-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\muli\\Muli-SemiBold.ttf"
+    },
+    {
       "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\fonts\\style.css",
       "PackagePath": "staticwebassets\\fonts\\style.css"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\bg-registration-form-2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-registration-form-2.jpg"
+    },
+    {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\bgImageForRegistration.jpg",
+      "PackagePath": "staticwebassets\\img\\bgImageForRegistration.jpg"
     },
     {
       "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\browsers\\chrome.svg",
@@ -2329,6 +2413,10 @@
       "PackagePath": "staticwebassets\\img\\prime-users.png"
     },
     {
+      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\registration-form-2.jpg",
+      "PackagePath": "staticwebassets\\img\\registration-form-2.jpg"
+    },
+    {
       "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\sidebar-bg.jpeg",
       "PackagePath": "staticwebassets\\img\\sidebar-bg.jpeg"
     },
@@ -2351,106 +2439,6 @@
     {
       "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\star.svg",
       "PackagePath": "staticwebassets\\img\\star.svg"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user.png",
-      "PackagePath": "staticwebassets\\img\\user.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user1.png",
-      "PackagePath": "staticwebassets\\img\\user1.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user10.png",
-      "PackagePath": "staticwebassets\\img\\user10.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user11.png",
-      "PackagePath": "staticwebassets\\img\\user11.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user12.png",
-      "PackagePath": "staticwebassets\\img\\user12.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user13.png",
-      "PackagePath": "staticwebassets\\img\\user13.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user14.png",
-      "PackagePath": "staticwebassets\\img\\user14.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user15.png",
-      "PackagePath": "staticwebassets\\img\\user15.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user16.png",
-      "PackagePath": "staticwebassets\\img\\user16.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user17.png",
-      "PackagePath": "staticwebassets\\img\\user17.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user18.png",
-      "PackagePath": "staticwebassets\\img\\user18.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user19.png",
-      "PackagePath": "staticwebassets\\img\\user19.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user2.png",
-      "PackagePath": "staticwebassets\\img\\user2.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user20.png",
-      "PackagePath": "staticwebassets\\img\\user20.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user21.png",
-      "PackagePath": "staticwebassets\\img\\user21.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user22.png",
-      "PackagePath": "staticwebassets\\img\\user22.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user23.png",
-      "PackagePath": "staticwebassets\\img\\user23.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user24.png",
-      "PackagePath": "staticwebassets\\img\\user24.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user3.png",
-      "PackagePath": "staticwebassets\\img\\user3.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user4.png",
-      "PackagePath": "staticwebassets\\img\\user4.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user5.png",
-      "PackagePath": "staticwebassets\\img\\user5.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user6.png",
-      "PackagePath": "staticwebassets\\img\\user6.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user7.png",
-      "PackagePath": "staticwebassets\\img\\user7.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user8.png",
-      "PackagePath": "staticwebassets\\img\\user8.png"
-    },
-    {
-      "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\img\\user9.png",
-      "PackagePath": "staticwebassets\\img\\user9.png"
     },
     {
       "Id": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\wwwroot\\js\\bootstrap.bundle.min.js",

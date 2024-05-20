@@ -1,0 +1,90 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "MyProduct";
+    Layout = "_LayoutUser";
+}
+
+@using Microsoft.AspNetCore.Identity
+@using ModelAccessLayer.Models
+@model ModelAccessLayer.Models.ProductModel
+@inject SignInManager<ApplicationUser> SignInManager;
+	@inject UserManager<ApplicationUser> UserManager;
+<style>
+    body {
+        padding: 20px;
+        background-color: #f8f9fa;
+    }
+
+    .product-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+        .product-container h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+    .product-description {
+        color: #666;
+    }
+
+    .product-price {
+        color: #007bff;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    .product-image {
+        max-width: 100%;
+        margin-bottom: 20px;}
+</style>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="product-container">
+                <h1 class="text-center">Product Details</h1>
+                @if (Model != null)
+                {
+                    
+                        <div>
+                            <img src="@Model.ImageURL" class="product-image" alt="@Model.Name">
+                            <h2>@Model.Name</h2>
+                            <p class="product-description">Description: @Model.Description</p>
+                            <p class="product-price">Price: $@Model.Price</p>
+
+                            @if (SignInManager.IsSignedIn(User))
+                            {
+                                string userName = @UserManager.GetUserName(User);
+                                <a asp-controller="Home" asp-action="Details" class="btn btn-primary">Details</a>
+
+                                <button class="btn btn-success">@Html.ActionLink("Add To Cart", "AddToCart", "Order", new { id = Model.Id, UserName = userName })</button>
+
+                            }
+                            else
+                            {
+                                <p>Please sign in to add items to your cart.</p>
+                            }
+                            <!-- Add more details as needed -->
+                        </div>
+                    
+
+                    
+                }
+                else
+                {
+                    <p>Product not found.</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>

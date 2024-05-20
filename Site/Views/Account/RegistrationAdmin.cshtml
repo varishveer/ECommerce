@@ -6,72 +6,56 @@
     ViewData["Title"] = "RegitrationAdmin";
 
 }
-<link href="~/css/bootstrap.min.css" rel="stylesheet" />
-<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-<div class="container">
-    <div class="row">
-        <div class="col-md-4">
+<link href="~/css/styleforloginuser.css" rel="stylesheet" />
+<link href="~/fonts/material-design-iconic-font/css/material-design-iconic-font.css" rel="stylesheet" />
+<link href="~/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet" />
+<div class="wrapper">
+    <div class="innerTwo">
 
-        </div>
-        <div class="col-md-4 p-2">
-            <form method="post" asp-action="RegistrationAdmin" asp-controller="Account">
-                <h3 class="text-muted mb-1 text-center" style="font-size:20px"> Create An Account</h3>
-                <hr />
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="mb-3">
-                    <label class="mb-2" asp-for="FirstName"></label><span class="text-danger">*</span>
-                    <input type="text" class="form-control" asp-for="FirstName" placeholder="Enter First Name" />
-                    <span asp-validation-for="FirstName" class="text-danger"></span>
+        <form method="post" asp-action="RegistrationAdmin" asp-controller="Account">
+            <h3>Admin Registration Form</h3>
+            <div class="form-group">
+                <div class="form-wrapper">
+                    <label asp-for="FirstName">First Name</label>
+                    <input type="text" class="form-control" asp-for="FirstName">
                 </div>
+                <div class="form-wrapper">
+                    <label asp-for="LastName">Last Name</label>
+                    <input type="text" class="form-control" asp-for="LastName">
+                </div>
+            </div>
+            <div class="form-wrapper">
+                <label asp-for="UserName">Username</label>
+                <input type="text" class="form-control" asp-for="UserName">
+            </div>
+            <div class="form-wrapper">
+                <label asp-for="Email">Email</label>
+                <input type="text" class="form-control" asp-for="Email">
+            </div>
+            <div class="form-wrapper">
+                <label asp-for="PhoneNumber">Phone Number</label>
+                <input type="text" class="form-control" asp-for="PhoneNumber">
+            </div>
 
-                <div class="mb-3">
-                    <label class="mb-2" asp-for="LastName"></label><span class="text-danger">*</span>
-                    <input type="text" class="form-control" asp-for="LastName" placeholder="Enter Last Name" />
-                    <span asp-validation-for="LastName" class="text-danger"></span>
+            <div class="form-wrapper">
+                <label asp-for="Password">Password</label>
+                <input type="password" class="form-control" asp-for="Password">
+            </div>
+            <div class="form-wrapper">
+                <label asp-for="ConfirmPassword">Confirm Password</label>
+                <input type="password" class="form-control" asp-for="ConfirmPassword">
+            </div>
+            <div class="form-group">
+                <div class="form-wrapper">
+                    <label asp-for="DOB">DOB</label>
+                    <input type="password" class="form-control" asp-for="DOB">
                 </div>
-
-                <div class="mb-3">
-                    <label class="mb-2" asp-for="UserName"></label><span class="text-danger">*</span>
-                    <input type="text" class="form-control" asp-for="UserName" placeholder="Enter UserName" />
-                    <span asp-validation-for="UserName" class="text-danger"></span>
+                <div class="form-wrapper">
+                    <label asp-for="Gender">Gender</label>
+                    <input type="password" class="form-control" asp-for="Gender">
                 </div>
-                <div class="mb-3">
-                    <label class="mb-2" asp-for="Email"></label><span class="text-danger">*</span>
-                    <input type="email" class="form-control" asp-for="Email" autocomplete="Email" placeholder="Enter Email" />
-                    <span asp-validation-for="Email" class="text-danger"></span>
-                </div>
-                <div class="mb-3">
-                    <label class="mb-2" asp-for="PhoneNumber"></label><span class="text-danger">*</span>
-                    <input type="number" class="form-control" asp-for="PhoneNumber" autocomplete="Email" placeholder="Enter Email" />
-                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-                </div>
-                <div class="mb-3">
-                    <label class="mb-2" asp-for="Password"></label><span class="text-danger">*</span>
-                    <input type="password" class="form-control" asp-for="Password" autocomplete="Password" placeholder="Enter Password" />
-                    <span asp-validation-for="Password" class="text-danger"></span>
-                </div>
-                <div class="mb-3">
-                    <label class="mb-2" asp-for="ConfirmPassword"></label><span class="text-danger">*</span>
-                    <input type="password" class="form-control" asp-for="ConfirmPassword" autocomplete="ConfirmPassword" placeholder="Enter ConfirmPassword" />
-                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
-                </div>
-                <div class="mb-3">
-                    <label class="mb-2" asp-for="DOB"></label><span class="text-danger">*</span>
-                    <input type="date" class="form-control" asp-for="DOB" autocomplete="DOB" />
-                    <span asp-validation-for="DOB" class="text-danger"></span>
-                </div>
-                <div class="mb-3">
-                    <label class="mb-2" asp-for="Gender"></label><span class="text-danger">*</span>
-                    <input type="text" class="form-control" asp-for="Gender" autocomplete="Gender" />
-                    <span asp-validation-for="Gender" class="text-danger"></span>
-                </div>
-                <div class="float-end">
-                    <button type="submit" class=" btn btn-primary m-2">Register</button>
-                </div>
-            </form>
-
-        </div>
-        <div class="col-md-4">
-        </div>
+            </div>
+            <button type="submit">Register Now</button>
+        </form>
     </div>
 </div>

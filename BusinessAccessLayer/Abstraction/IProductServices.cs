@@ -15,5 +15,8 @@ namespace BusinessAccessLayer.Abstraction
         public Task<bool> DeleteProduct(int Id, string path);
         public Task<bool> EditProduct(ProductViewModel model, string path);
         public Task<ProductModel> EditProduct(int id);
-    }
+        public Task<ProductModel> MyProduct(int Id);
+
+
+	}
 }

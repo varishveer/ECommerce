@@ -118,5 +118,14 @@ namespace BusinessAccessLayer.Implementation
             }
             return null;
         }
+        public async Task<ProductModel> MyProduct(int Id)
+        {
+            var getRow = await _context.Products.Where(x=>x.Id == Id).FirstOrDefaultAsync();
+			if (getRow != null)
+			{
+				return getRow;
+			}
+			return null;
+		}
     }
 }

@@ -5,56 +5,80 @@
 *@
 @{
 }
-<div>
-    <form asp-action="CreateProduct" method="post" enctype="multipart/form-data">
-        <div asp-validation-summary="ModelOnly"></div><input type="hidden" asp-for="ProductModel.Id" />
-        <div>
-            <h4><strong>Member Details</strong> </h4>
+<div class="container mt-5">
+    <form id="EditProductForm" asp-action="Edit" method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
+        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+        <input type="hidden" id="productId" name="productId" />
 
-            <table class="table table-sm table-bordered table-striped">
-
-                <tr>
-                    <th> <label asp-for="ProductModel.Name"></label></th>
-                    <td> <input asp-for="ProductModel.Name" class="form-control" placeholder="Enter member name" /><span asp-validation-for="ProductModel.Name"></span></td>
-                </tr>
-                <tr>
-                    <th> <label asp-for="ProductModel.Description"></label></th>
-                    <td> <input asp-for="ProductModel.Description" class="form-control" placeholder="Enter member name" /><span asp-validation-for="ProductModel.Description"></span></td>
-                </tr>
-
-                <tr>
-                    <th> <label asp-for="ProductModel.AddedDate"></label></th>
-                    <td> <input asp-for="ProductModel.AddedDate" class="form-control" placeholder="Enter member name" /><span asp-validation-for="ProductModel.AddedDate"></span></td>
-                </tr>
-                <tr>
-                    <th> <label asp-for="ProductModel.Price"></label></th>
-                    <td> <input asp-for="ProductModel.Price" class="form-control" placeholder="Enter member name" /><span asp-validation-for="ProductModel.Price"></span></td>
-                </tr>
-                <tr>
-                    <th> <label asp-for="ProductModel.Availability"></label></th>
-                    <td> <input asp-for="ProductModel.Availability" class="form-control" placeholder="Enter member name" /><span asp-validation-for="ProductModel.Availability"></span></td>
-                </tr>
-                <tr>
-                    <th> <label asp-for="ProductModel.Category"></label></th>
-                    <td> <input asp-for="ProductModel.Category" class="form-control" placeholder="Enter member name" /><span asp-validation-for="ProductModel.Category"></span></td>
-                </tr>
-                <tr>
-                    <th> <label asp-for="Image"></label></th>
-                    <td>
-                        <strong>Upload New File</strong>
-                        <div id="chooseFile"><input type="file" name="Image" accept="image/*" asp-for="Image" /></div>
-
-                    </td>
-                </tr>
-                <tr>
-                    <th>  <button type="submit" class="btn btn-primary" style="width:107px">Save Info</button></th>
-                    <td> </td>
-                </tr>
-                <tr>
-                    <td> </td>
-                </tr>
-            </table>
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Add Product</h4>
+            </div>
+            <div class="card-body">
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Name:</label>
+                    <div class="col-sm-9">
+                        <input type="text" id="productName" name="productName" class="form-control" placeholder="Enter product name" required />
+                        <div class="invalid-feedback">Please provide a name for the product.</div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Description:</label>
+                    <div class="col-sm-9">
+                        <textarea id="productDescription" name="productDescription" class="form-control" placeholder="Enter product description" rows="3" required></textarea>
+                        <div class="invalid-feedback">Please provide a description for the product.</div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Added Date:</label>
+                    <div class="col-sm-9">
+                        <input type="date" id="productAddedDate" name="productAddedDate" class="form-control" placeholder="Enter added date" required />
+                        <div class="invalid-feedback">Please select the added date of the product.</div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Price:</label>
+                    <div class="col-sm-9">
+                        <input type="number" id="productPrice" name="productPrice" class="form-control" placeholder="Enter product price" step="0.01" required />
+                        <div class="invalid-feedback">Please provide a valid price for the product.</div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Availability:</label>
+                    <div class="col-sm-9">
+                        <select id="productAvailability" name="productAvailability" class="form-control" required>
+                            <option value="">Select availability</option>
+                            <option value="In stock">In stock</option>
+                            <option value="Out of stock">Out of stock</option>
+                        </select>
+                        <div class="invalid-feedback">Please select the availability of the product.</div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Category:</label>
+                    <div class="col-sm-9">
+                        <select id="productCategory" name="productCategory" class="form-control">
+                            <option value="TELEVISION">TELEVISION </option>
+                            <option value="FRIDGE">FRIDGE</option>
+                            <!-- Add other options as needed -->
+                        </select>
+                        <div class="invalid-feedback">Please provide a category for the product.</div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Image:</label>
+                    <div class="col-sm-9">
+                        <div class="custom-file">
+                            <input type="file" id="productImage" name="productImage" class="custom-file-input" accept="image/*" required>
+                            <label class="custom-file-label" for="productImage">Choose file</label>
+                            <div class="invalid-feedback">Please choose an image for the product.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary">Save Info</button>
+            </div>
         </div>
     </form>
-
 </div>

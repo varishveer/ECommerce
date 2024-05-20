@@ -10,44 +10,37 @@
     ViewData["Title"] = "LoginAdmin";
 
 }
-<link href="~/css/bootstrap.min.css" rel="stylesheet" />
-<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link href="~/css/styleforloginuser.css" rel="stylesheet" />
+<link href="~/fonts/material-design-iconic-font/css/material-design-iconic-font.css" rel="stylesheet" />
+<link href="~/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet" />
+<div class="wrapper">
+	<div class="inner">
+		<form method="post" asp-action="LoginAdmin" asp-controller="Account">
+			<h3>Admin LogIn Form</h3>
 
-<div class="container">
-    <div class="row d-flex align-items-center my-auto">
-        <div class="col-md-4">
-        </div>
-        <div class="col-md-4 p-2">
+			<div class="form-wrapper">
+				<label for="" asp-for="Email">Email</label>
+				<input type="email" asp-for="Email" class="form-control">
+			</div>
+			<div class="form-wrapper">
+				<label asp-for="Password">Password</label>
+				<input type="password" asp-for="Password" class="form-control">
+			</div>
+			<div class="checkbox">
+				<label>
+					<input type="checkbox"> I caccept the Terms of Use & Privacy Policy.
+					<span class="checkmark"></span>
+				</label>
+			</div>
 
-            <form method="post" asp-action="LoginAdmin" asp-controller="Account">
-                <h3 class="text-muted mb-1 text-center" style="font-size:20px"> Login Into Your  Account</h3>
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="mb-3">
-                    <label class="mb-2 form-label" asp-for="Email"></label><span class="text-danger">*</span>
-                    <input type="email" class="form-control" asp-for="Email" autocomplete="Email" placeholder="Enter Email" />
-                    <span asp-validation-for="Email" class="text-danger"></span>
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
+			<button type="submit">LogIn</button>
+	
+			
+			<button><a asp-area="" asp-controller="Account" asp-action="CheckEmailForgotPassword"></a>Forgot Password</button>
+		</form>
+		
 
-                    <label class="mb-2 form-label" asp-for="Password"></label><span class="text-danger">*</span>
-                    <input type="password" class="form-control" asp-for="Password" autocomplete="Password" placeholder="Enter Password" />
-                    <span asp-validation-for="Password" class="text-danger"></span>
+		
 
-                </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-
-
-
-            
-            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="CheckEmailForgotPassword">Forgot Password</a>
-        </div>
-        <div class="col-md-4">
-        </div>
-    </div>
+	</div>
 </div>

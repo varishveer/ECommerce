@@ -16,8 +16,8 @@ namespace Site.Controllers
             _environment = environment;
         }
 
-        
 
+        [Authorize(Roles ="ADMIN")]
         [HttpGet]
         public async Task<IActionResult> ProductList()
         {
@@ -25,8 +25,9 @@ namespace Site.Controllers
             return View(result);
         }
 
+		[Authorize(Roles = "USER")]
 
-        [HttpGet]
+		[HttpGet]
         public async Task<IActionResult> ProductListUser()
         {
             var result = await _services.ProductList();
@@ -65,7 +66,7 @@ namespace Site.Controllers
         public async Task<ActionResult> Edit(int id)
         {
             var productData = await _services.EditProduct(id);
-            return View();
+            return View(productData);
         }
 
         // POST: ProductController/Edit/5
@@ -89,11 +90,21 @@ namespace Site.Controllers
         {
             string? path = _environment.WebRootPath;
             var result = await _services.DeleteProduct(id, path);
-            if (result == true)
-            { return View("ProductList"); }
+            if (result)
+            {
+                return RedirectToAction(nameof(ProductList));
+            }
             else
-            { return View("Error"); }
+            {
+                return BadRequest(); // Return an error response
+            }
+        }
 
+        [HttpGet]
+        public async Task<IActionResult> MyProduct(int Id)
+        {
+            var result =await  _services.MyProduct(Id);
+            return View(result);
         }
     }
 }

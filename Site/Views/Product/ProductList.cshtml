@@ -4,49 +4,94 @@
    
 }
 
+
+
+
+
+
+
+<style>
+    /* Additional custom styles */
+    body {
+        padding-top: 20px;
+        background-color: #f8f9fa;
+    }
+
+    .table {
+        background-color: #fff;
+    }
+
+    .btn {
+        border-radius: 20px;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+        .btn-success:hover {
+            background-color: #218838;
+            border-color: #1e7e34;
+        }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+        }
+
+    .img-thumbnail {
+        border-radius: 8px;
+    }
+</style>
+
 <div class="container">
-    <div class="row">
-
-        <div class="">
-            <table class="table table-bordered table-hover">
-                <thead>
-                    <tr class="text-center">
-                        <th>Id</th>
-                        <th>Name</th>
-                        <th>Description</th>
-                        
-                        <th>Date</th>
-                        <th>Availability</th>
-                        <th>Price</th>
-                        <th>Category</th>
-                        <th>Image</th>
-                        <th>Action</th>
+    <h1 class="text-center mb-4">Products</h1>
+    <div class="text-right mb-3">
+        <button class="btn btn-success"><a class="text-white"  asp-action="CreateProduct">Create New</a></button>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-bordered ">
+            <thead class="thead-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Added Date</th>
+                    <th>Availability</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                    <th>Image</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                        <td>@Html.DisplayFor(modelItem => item.AddedDate)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Availability)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Category)</td>
+                        <td><img src="@item.ImageURL" class="img-thumbnail" alt="Product Image" width="100" height="100"></td>
+                        <td>
+                            <button class="btn btn-success">@Html.ActionLink("Edit", "Edit", new { id = item.Id })</button>
+                            <button class="btn btn-danger">@Html.ActionLink("Delete", "Delete", new { id = item.Id })</button>
+                        </td>
                     </tr>
-                </thead>
-                <tbody class="tbody">
-                    @foreach (var d in Model)
-                    {
-                        <tr class="text-center">
-                            <td>@d.Id</td>
-                            <td>@d.Name</td>
-                            <td>@d.Description</td>
-                            <td>@d.AddedDate</td>
-                            <td>@d.Availability</td>
-                            <td>@d.Price</td>
-                            <td>@d.Category</td>
-
-
-                            <td><img src="@d.ImageURL" height="100px" width="100px" /></td>
-                            <td>
-                                <a class="btn btn-sm btn-danger" asp-action="Delete" asp-controller="Product" asp-route-id="@d.Id">Delete</a>
-                                <a class="btn btn-sm btn-info" asp-action="Edit" asp-controller="Product" asp-route-id="@d.Id">Update</a>
-                            </td>
-
-                        </tr>
-                    }
-                </tbody>
-                
-            </table>
-        </div>
+                }
+            </tbody>
+        </table>
     </div>
 </div>
+<!-- Bootstrap JS (optional) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
