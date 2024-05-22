@@ -1,22 +1,20 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@* UserList.cshtml *@
 @{
+    ViewData["Title"] = "UserList";
+    Layout = "_Layout";
 }
 @model IEnumerable<ModelAccessLayer.Models.ApplicationUser>;
-<div class="container">
 
+<div class="container">
     <div class="row">
         <h3>User Details</h3>
-
-        <div class="col-6 offset-3">
-            <table class="table table-bordered">
+        <div class="col-12">
+            <table class="table table-bordered" id="userTable">
                 <thead>
                     <tr class="text-center">
                         <th>Id</th>
                         <th>FirstName</th>
                         <th>LastName</th>
-
                         <th>DOB</th>
                         <th>Gender</th>
                         <th>UserName</th>
@@ -25,23 +23,97 @@
                         <th>Action</th>
                     </tr>
                 </thead>
-                @foreach (var d in Model)
-                {
-                    <tr class="text-center">
-                        <td>@d.Id</td>
-                        <td>@d.FirstName</td>
-                        <td>@d.LastName</td>
-                        <td>@d.DOB</td>
-                        <td>@d.Gender</td>
-                        <td>@d.UserName</td>
-                        <td>@d.Email</td>
-                        <td>@d.PhoneNumber</td>
-                        <td> <a class="btn btn-sm btn-info" asp-action="DeleteUser" asp-controller="Admin" asp-route-email="@d.Email">Delete</a></td>
-
-
-                    </tr>
-                }
+                <tbody>
+                    <!-- User rows will be populated here by jQuery -->
+                </tbody>
             </table>
         </div>
     </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Function to load the user list
+        function loadUserList() {
+            $.ajax({
+                url: '@Url.Action("UserList", "Admin")',
+                type: 'GET',
+                dataType: 'application/json',
+                success: function (data) {
+                    var tbody = $('#userTable tbody');
+                    tbody.empty();
+                    data.forEach(function (user) {
+                        var row = '<tr>' +
+                            '<td>' + user.id + '</td>' +
+                            '<td>' + user.firstName + '</td>' +
+                            '<td>' + user.lastName + '</td>' +
+                            '<td>' + new Date(user.dob).toLocaleDateString() + '</td>' +
+                            '<td>' + user.gender + '</td>' +
+                            '<td>' + user.userName + '</td>' +
+                            '<td>' + user.email + '</td>' +
+                            '<td>' + user.phoneNumber + '</td>' +
+                            '<td><button class="deleteUserBtn btn btn-sm btn-danger" data-email="' + user.email + '">Delete</button></td>' +
+                            '</tr>';
+                        tbody.append(row);
+                    });
+
+                    // Bind click event to delete buttons
+                    $('.deleteUserBtn').click(function () {
+                        var email = $(this).data('email');
+                        deleteUser(email);
+                    });
+                },
+                error: function (xhr, status, error) {
+                    alert("An error occurred while fetching the user list: " + xhr.responseText);
+                }
+            });
+        }
+
+        // Function to delete a user
+        function deleteUser(email) {
+            $.ajax({
+                url: '@Url.Action("DeleteUser", "Admin")',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ email: email }),
+                success: function (response) {
+                    if (response.success) {
+                        loadUserList(); // Reload the user list
+                    } else {
+                        alert("An error occurred while deleting the user.");
+                    }
+                },
+                error: function (xhr, status, error) {
+                    alert("An error occurred while deleting the user: " + xhr.responseText);
+                }
+            });
+        }
+
+        // Initially load the user list
+        loadUserList();
+    });
+</script>
+
+
+
+
+
+
+@*  @foreach (var d in Model)
+                {
+                <tr class="text-center">
+                <td>@d.Id</td>
+                <td>@d.FirstName</td>
+                <td>@d.LastName</td>
+                <td>@d.DOB</td>
+                <td>@d.Gender</td>
+                <td>@d.UserName</td>
+                <td>@d.Email</td>
+                <td>@d.PhoneNumber</td>
+                <td> <a class="btn btn-sm btn-info" asp-action="DeleteUser" asp-controller="Admin" asp-route-email="@d.Email">Delete</a></td>
+
+
+                </tr>
+                }
+                *@

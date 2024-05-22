@@ -3,68 +3,16 @@
   "WorkspaceRootPath": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\site\\views\\order\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|solutionrelative:site\\views\\order\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\site\\views\\order\\addtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|solutionrelative:site\\views\\order\\addtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\site\\views\\product\\productlistuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|solutionrelative:site\\views\\product\\productlistuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\site\\views\\order\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|solutionrelative:site\\views\\order\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\site\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|solutionrelative:site\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\site\\views\\account\\registrationadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|solutionrelative:site\\views\\account\\registrationadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\site\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|solutionrelative:site\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\site\\views\\account\\loginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|solutionrelative:site\\views\\account\\loginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\site\\views\\account\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|solutionrelative:site\\views\\account\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\site\\views\\account\\checkemailforgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|solutionrelative:site\\views\\account\\checkemailforgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E94B7B4-4AC5-4F03-856C-2380A9BA7D18}|BusinessAccessLayer\\BusinessAccessLayer.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\businessaccesslayer\\implementation\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E94B7B4-4AC5-4F03-856C-2380A9BA7D18}|BusinessAccessLayer\\BusinessAccessLayer.csproj|solutionrelative:businessaccesslayer\\implementation\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\site\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|solutionrelative:site\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\site\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|solutionrelative:site\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\site\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|solutionrelative:site\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\site\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|solutionrelative:site\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E94B7B4-4AC5-4F03-856C-2380A9BA7D18}|BusinessAccessLayer\\BusinessAccessLayer.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\businessaccesslayer\\implementation\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E94B7B4-4AC5-4F03-856C-2380A9BA7D18}|BusinessAccessLayer\\BusinessAccessLayer.csproj|solutionrelative:businessaccesslayer\\implementation\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\site\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|solutionrelative:site\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|d:\\study\\asp.netcore\\code first aproach\\onlinestore\\site\\ecommerce\\site\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42E962AA-3174-469E-A732-7A25E9048B57}|Site\\Site.csproj|solutionrelative:site\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,211 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductListUser.cshtml",
-              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Product\\ProductListUser.cshtml",
-              "RelativeDocumentMoniker": "Site\\Views\\Product\\ProductListUser.cshtml",
-              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Product\\ProductListUser.cshtml",
-              "RelativeToolTip": "Site\\Views\\Product\\ProductListUser.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T07:34:31.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AddToCart.cshtml",
-              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Order\\AddToCart.cshtml",
-              "RelativeDocumentMoniker": "Site\\Views\\Order\\AddToCart.cshtml",
-              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Order\\AddToCart.cshtml",
-              "RelativeToolTip": "Site\\Views\\Order\\AddToCart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T07:26:04.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserList.cshtml",
-              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Admin\\UserList.cshtml",
-              "RelativeDocumentMoniker": "Site\\Views\\Admin\\UserList.cshtml",
-              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Admin\\UserList.cshtml",
-              "RelativeToolTip": "Site\\Views\\Admin\\UserList.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T07:24:37.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Site\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Site\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T07:24:28.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginAdmin.cshtml",
-              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Account\\LoginAdmin.cshtml",
-              "RelativeDocumentMoniker": "Site\\Views\\Account\\LoginAdmin.cshtml",
-              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Account\\LoginAdmin.cshtml",
-              "RelativeToolTip": "Site\\Views\\Account\\LoginAdmin.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T07:24:10.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegistrationAdmin.cshtml",
-              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Account\\RegistrationAdmin.cshtml",
-              "RelativeDocumentMoniker": "Site\\Views\\Account\\RegistrationAdmin.cshtml",
-              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Account\\RegistrationAdmin.cshtml",
-              "RelativeToolTip": "Site\\Views\\Account\\RegistrationAdmin.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T07:23:45.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Registration.cshtml",
-              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Account\\Registration.cshtml",
-              "RelativeDocumentMoniker": "Site\\Views\\Account\\Registration.cshtml",
-              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Account\\Registration.cshtml",
-              "RelativeToolTip": "Site\\Views\\Account\\Registration.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T07:23:40.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CheckEmailForgotPassword.cshtml",
-              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Account\\CheckEmailForgotPassword.cshtml",
-              "RelativeDocumentMoniker": "Site\\Views\\Account\\CheckEmailForgotPassword.cshtml",
-              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Account\\CheckEmailForgotPassword.cshtml",
-              "RelativeToolTip": "Site\\Views\\Account\\CheckEmailForgotPassword.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T07:22:09.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Cart.cshtml",
-              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Order\\Cart.cshtml",
-              "RelativeDocumentMoniker": "Site\\Views\\Order\\Cart.cshtml",
-              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Order\\Cart.cshtml",
-              "RelativeToolTip": "Site\\Views\\Order\\Cart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T11:10:26.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderList.cshtml",
-              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Order\\OrderList.cshtml",
-              "RelativeDocumentMoniker": "Site\\Views\\Order\\OrderList.cshtml",
-              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Order\\OrderList.cshtml",
-              "RelativeToolTip": "Site\\Views\\Order\\OrderList.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T11:17:34.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OrderServices.cs",
-              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\BusinessAccessLayer\\Implementation\\OrderServices.cs",
-              "RelativeDocumentMoniker": "BusinessAccessLayer\\Implementation\\OrderServices.cs",
-              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\BusinessAccessLayer\\Implementation\\OrderServices.cs",
-              "RelativeToolTip": "BusinessAccessLayer\\Implementation\\OrderServices.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAowE0AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:08:33.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_LayoutUser.cshtml",
-              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Shared\\_LayoutUser.cshtml",
-              "RelativeDocumentMoniker": "Site\\Views\\Shared\\_LayoutUser.cshtml",
-              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Shared\\_LayoutUser.cshtml",
-              "RelativeToolTip": "Site\\Views\\Shared\\_LayoutUser.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T11:05:38.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Product\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Site\\Views\\Product\\Edit.cshtml",
-              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Product\\Edit.cshtml",
-              "RelativeToolTip": "Site\\Views\\Product\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T10:40:12.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CreateProduct.cshtml",
-              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Product\\CreateProduct.cshtml",
-              "RelativeDocumentMoniker": "Site\\Views\\Product\\CreateProduct.cshtml",
-              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Product\\CreateProduct.cshtml",
-              "RelativeToolTip": "Site\\Views\\Product\\CreateProduct.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAiwEAAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T10:38:26.805Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductServices.cs",
-              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\BusinessAccessLayer\\Implementation\\ProductServices.cs",
-              "RelativeDocumentMoniker": "BusinessAccessLayer\\Implementation\\ProductServices.cs",
-              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\BusinessAccessLayer\\Implementation\\ProductServices.cs",
-              "RelativeToolTip": "BusinessAccessLayer\\Implementation\\ProductServices.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAwwFUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T10:35:45.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Site\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Site\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T09:55:42.83Z",
+              "WhenOpened": "2024-05-22T10:21:47.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Site\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Site\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T10:21:41.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Site\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Site\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T10:21:30.152Z",
               "EditorCaption": ""
             }
           ]

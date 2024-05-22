@@ -14,18 +14,20 @@
 <link href="~/css/styleforloginuser.css" rel="stylesheet" />
 <link href="~/fonts/material-design-iconic-font/css/material-design-iconic-font.css" rel="stylesheet" />
 <link href="~/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 <div class="wrapper" >
 	<div class="inner">
-		<form method="post" asp-action="Login" asp-controller="Account">
+		<form method="post" asp-action="Login" asp-controller="Account" id="LoginForm">
 			<h3>LogIn Form</h3>
 			
 			<div class="form-wrapper">
 				<label for="" asp-for="Email">Email</label>
-				<input type="email" asp-for="Email" class="form-control">
+				<input type="email" asp-for="Email" class="form-control" name="Email">
 			</div>
 			<div class="form-wrapper">
                 <label asp-for="Password">Password</label>
-                <input type="password" asp-for="Password" class="form-control">
+                <input type="password" asp-for="Password" class="form-control" name="Password">
 			</div>
 			<div class="checkbox">
 				<label>
@@ -40,3 +42,30 @@
        
 	</div>
 </div>
+
+<script>
+    $(document).ready(function () {
+        $('#LoginForm').on('submit', function (event) {
+            event.preventDefault();
+
+            var formData = {
+                Email: $("input[name='Email']").val(),
+                Password: $("input[name='Password']").val()
+            };
+
+            $.ajax({
+                url: '@Url.Action("LoginAdmin", "Account")',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(formData),
+                success: function (result) {
+                    if (result) {
+                        window.location.href = '@Url.Action("ProductListUser", "Product")';
+                    } else {
+                        alert("Login failed. Please try again.");
+                    }
+                }
+            });
+        });
+    });
+</script>
