@@ -61,8 +61,8 @@ namespace ShoppingSite.Controllers
         [HttpPost]
         public async Task<JsonResult> DeleteUser([FromBody] string email)
         {
-            await _services.DeleteUser(email);
-            return Json(new { success = true });
+            var success = await _services.DeleteUser(email);
+            return Json(new { success });
         }
     }
 }

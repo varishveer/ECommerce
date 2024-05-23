@@ -1,14 +1,9 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@using ModelAccessLayer.ViewModels;
-@model LoginModel;
+﻿@using ModelAccessLayer.ViewModels
+@model LoginModel
+
 @{
     Layout = null;
-}
-@{
     ViewData["Title"] = "Login";
-
 }
 
 <link href="~/css/styleforloginuser.css" rel="stylesheet" />
@@ -16,31 +11,29 @@
 <link href="~/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet" />
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<div class="wrapper" >
-	<div class="inner">
-		<form method="post" asp-action="Login" asp-controller="Account" id="LoginForm">
-			<h3>LogIn Form</h3>
-			
-			<div class="form-wrapper">
-				<label for="" asp-for="Email">Email</label>
-				<input type="email" asp-for="Email" class="form-control" name="Email">
-			</div>
-			<div class="form-wrapper">
+<div class="wrapper">
+    <div class="inner">
+        <form id="LoginForm">
+            <h3>LogIn Form</h3>
+
+            <div class="form-wrapper">
+                <label asp-for="Email">Email</label>
+                <input type="email" asp-for="Email" class="form-control" name="Email">
+            </div>
+            <div class="form-wrapper">
                 <label asp-for="Password">Password</label>
                 <input type="password" asp-for="Password" class="form-control" name="Password">
-			</div>
-			<div class="checkbox">
-				<label>
-					<input type="checkbox"> I caccept the Terms of Use & Privacy Policy.
-					<span class="checkmark"></span>
-				</label>
-			</div>
-            
-			<button type="submit">LogIn</button>
-			<button><a asp-area="" asp-controller="Account" asp-action="CheckEmailForgotPassword"></a>Forgot Password</button>
-		</form>
-       
-	</div>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" asp-for="RememberMe"> Remember Me
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <button type="submit">LogIn</button>
+            <button type="button" id="forgotPasswordButton">Forgot Password</button>
+        </form>
+    </div>
 </div>
 
 <script>
@@ -50,11 +43,12 @@
 
             var formData = {
                 Email: $("input[name='Email']").val(),
-                Password: $("input[name='Password']").val()
+                Password: $("input[name='Password']").val(),
+                RememberMe: $("input[name='RememberMe']").is(':checked')
             };
 
             $.ajax({
-                url: '@Url.Action("LoginAdmin", "Account")',
+                url: '@Url.Action("Login", "Account")',
                 type: 'POST',
                 contentType: 'application/json',
                 data: JSON.stringify(formData),
@@ -66,6 +60,10 @@
                     }
                 }
             });
+        });
+
+        $('#forgotPasswordButton').on('click', function () {
+            window.location.href = '@Url.Action("CheckEmailForgotPassword", "Account")';
         });
     });
 </script>

@@ -123,9 +123,6 @@ namespace ShoppingSite.Controllers
 }
 */
 
-
-
-
 using BusinessAccessLayer.Abstraction;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -137,10 +134,12 @@ namespace ShoppingSite.Controllers
     public class AccountController : Controller
     {
         private readonly IAccountServices _account;
+
         public AccountController(IAccountServices account)
         {
             _account = account;
         }
+
         public IActionResult Index()
         {
             return View();

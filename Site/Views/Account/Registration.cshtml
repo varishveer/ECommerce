@@ -1,24 +1,18 @@
-﻿@using ModelAccessLayer.ViewModels;
-@model RegistrationModel;
+﻿@using ModelAccessLayer.ViewModels
+@model RegistrationModel
 @{
     Layout = null;
+    ViewData["Title"] = "Registration";
 }
-@{
-    ViewData["Title"] = "Regitration";
-
-}
-
-
 
 <link href="~/css/styleforloginuser.css" rel="stylesheet" />
 <link href="~/fonts/material-design-iconic-font/css/material-design-iconic-font.css" rel="stylesheet" />
 <link href="~/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet" />
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<div class="wrapper" >
-    <div class="innerTwo" >
-        
-        <form method="post" asp-action="Registration" asp-controller="Account" id="RegistrationForm">
+<div class="wrapper">
+    <div class="innerTwo">
+        <form id="RegistrationForm">
             <h3>Registration Form</h3>
             <div class="form-group">
                 <div class="form-wrapper">
@@ -42,7 +36,6 @@
                 <label asp-for="PhoneNumber">Phone Number</label>
                 <input type="text" class="form-control" asp-for="PhoneNumber" name="PhoneNumber">
             </div>
-
             <div class="form-wrapper">
                 <label asp-for="Password">Password</label>
                 <input type="password" class="form-control" asp-for="Password" name="Password">
@@ -54,45 +47,50 @@
             <div class="form-group">
                 <div class="form-wrapper">
                     <label asp-for="DOB">DOB</label>
-                    <input type="password" class="form-control" asp-for="DOB" name="DOB">
+                    <input type="date" class="form-control" asp-for="DOB" name="DOB">
                 </div>
                 <div class="form-wrapper">
                     <label asp-for="Gender">Gender</label>
-                    <input type="password" class="form-control" asp-for="Gender" name="Gender">
+                    <select class="form-control" asp-for="Gender" name="Gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
                 </div>
             </div>
-            <button type="submit" >Register Now</button>
+            <button type="button" id="registerButton">Register Now</button>
         </form>
     </div>
 </div>
+
 <script>
     $(document).ready(function () {
-        $('#RegistrationForm').on('Submit', function (event) {
+        $('#registerButton').on('click', function (event) {
+            event.preventDefault();
             var formData = {
-                Firstname: $("input[name='Firstname']").val(),
-                Lastname: $("input[name='Lastname']").val(),
-                Username: $("input[name='Username']").val(),
-                Password: $("input[name='Password']").val(),
+                FirstName: $("input[name='FirstName']").val(),
+                LastName: $("input[name='LastName']").val(),
+                UserName: $("input[name='UserName']").val(),
                 Email: $("input[name='Email']").val(),
                 PhoneNumber: $("input[name='PhoneNumber']").val(),
+                Password: $("input[name='Password']").val(),
+                ConfirmPassword: $("input[name='ConfirmPassword']").val(),
                 DOB: $("input[name='DOB']").val(),
-                Gender: $("input[name='Gender']").val()
+                Gender: $("select[name='Gender']").val()
             };
-            $ajax({
-                url: '@Url.Action("Registration","Account")',
+            $.ajax({
+                url: '@Url.Action("Registration", "Account")',
                 type: 'POST',
                 contentType: 'application/json',
                 data: JSON.stringify(formData),
-                Success: function (result) {
+                success: function (result) {
                     if (result) {
                         window.location.href = '@Url.Action("Login", "Account")';
-                    }
-                    else {
-                        alert("Registration Failed. Please Try Again")
+                    } else {
+                        alert("Registration Failed. Please Try Again");
                     }
                 }
             });
-
         });
     });
 </script>
