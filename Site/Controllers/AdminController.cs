@@ -52,12 +52,11 @@ namespace ShoppingSite.Controllers
         }
 
         [HttpGet]
-        public async Task<JsonResult> UserList()
+        public async Task<IActionResult> UserList()
         {
             var result = await _services.UserList();
-            return Json(result);
+            return View(result);
         }
-
         [HttpPost]
         public async Task<JsonResult> DeleteUser([FromBody] string email)
         {

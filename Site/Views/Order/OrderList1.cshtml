@@ -1,0 +1,84 @@
+﻿@model IEnumerable<ModelAccessLayer.Models.OrderModel>
+
+@{
+    ViewData["Title"] = "OrderList1";
+}
+
+<h1>Orders</h1>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins and AJAX) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+<p>
+    <button class="btn btn-success">
+        <a asp-action="Create">Create New</a>
+    </button>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody class="tbody">
+       
+    </tbody>
+</table>
+
+
+                    
+<script>
+
+
+
+
+
+        // Load Data in Table when document is ready
+        $(document).ready(function () {
+            loadData();
+        });
+        // Load Data function
+        function loadData() {
+            $.ajax({
+                url: '/Order/OrderList1',
+                type: 'GET',
+                success: function (result) {
+                    var html = '';
+                    $.each(result.data, function (key, item) {
+                        html += '<tr>';
+                        html += '<td>' + item.id + '</td>';
+                        html += '<td>' + item.productName + '</td>';
+                        html += '<td>' + item.price + '</td>';
+                        html += '<td>' + item.productId + '</td>';
+                        html += '<td>' + item.quantity + '</td>';
+                        html += '<td>' + item.email + '</td>';
+                        html += '</tr>';
+                    });
+                    $('.tbody').html(html);
+                },
+                error: function (errormessage) {
+                    alert(errormessage.responseText);
+                }
+            });
+        }
+                    </script>

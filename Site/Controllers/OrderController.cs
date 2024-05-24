@@ -39,6 +39,15 @@ namespace Site.Controllers
             var result =await _orderServices.OrderList();
             return View(result);
         }
+
+
+        [HttpGet]
+        [Authorize(Roles = "ADMIN")]
+        public async Task<JsonResult> OrderList1()
+        {
+            var result = await _orderServices.OrderList();
+            return Json(result);
+        }
         public async Task<IActionResult> AddQuantityforProduct(int Id, int Quantity)
 		{
 			await _orderServices.AddQuantity(Id, Quantity);

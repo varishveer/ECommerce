@@ -4,7 +4,12 @@
     Layout = "_Layout";
 }
 @model IEnumerable<ModelAccessLayer.Models.ApplicationUser>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 
+<script src="~/js/site.js"></script>
 <div class="container">
     <div class="row">
         <h3>User Details</h3>
@@ -21,99 +26,31 @@
                         <th>Email</th>
                         <th>PhoneNumber</th>
                         <th>Action</th>
+                      
                     </tr>
                 </thead>
-                <tbody>
-                    <!-- User rows will be populated here by jQuery -->
+                <tbody class="tbody">
+                    @foreach (var d in Model)
+                    {
+                        <tr class="text-center">
+                            <td>@d.Id</td>
+                            <td>@d.FirstName</td>
+                            <td>@d.LastName</td>
+                            <td>@d.DOB</td>
+                            <td>@d.Gender</td>
+                            <td>@d.UserName</td>
+                            <td>@d.Email</td>
+                            <td>@d.PhoneNumber</td>
+                            <td> <a class="btn btn-sm btn-info" asp-action="DeleteUser" asp-controller="Admin" asp-route-email="@d.Email">Delete</a></td>
+
+
+                        </tr>
+                    }
+
                 </tbody>
             </table>
         </div>
     </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    $(document).ready(function () {
-        // Function to load the user list
-        function loadUserList() {
-            $.ajax({
-                url: '@Url.Action("UserList", "Admin")',
-                type: 'GET',
-                dataType: 'json',
-                success: function (data) {
-                    var tbody = $('#userTable tbody');
-                    tbody.empty();
-                    data.forEach(function (user) {
-                        var row = '<tr>' +
-                            '<td>' + user.id + '</td>' +
-                            '<td>' + user.firstName + '</td>' +
-                            '<td>' + user.lastName + '</td>' +
-                            '<td>' + new Date(user.dob).toLocaleDateString() + '</td>' +
-                            '<td>' + user.gender + '</td>' +
-                            '<td>' + user.userName + '</td>' +
-                            '<td>' + user.email + '</td>' +
-                            '<td>' + user.phoneNumber + '</td>' +
-                            '<td><button class="deleteUserBtn btn btn-sm btn-danger" data-email="' + user.email + '">Delete</button></td>' +
-                            '</tr>';
-                        tbody.append(row);
-                    });
-
-                    // Bind click event to delete buttons
-                    $('.deleteUserBtn').click(function () {
-                        var email = $(this).data('email');
-                        deleteUser(email);
-                    });
-                },
-                error: function (xhr, status, error) {
-                    alert("An error occurred while fetching the user list: " + xhr.responseText);
-                }
-            });
-        }
-
-        // Function to delete a user
-        function deleteUser(email) {
-            $.ajax({
-                url: '@Url.Action("DeleteUser", "Admin")',
-                type: 'POST',
-                contentType: 'application/json',
-                data: JSON.stringify(email),
-                success: function (response) {
-                    if (response.success) {
-                        loadUserList(); // Reload the user list
-                    } else {
-                        alert("An error occurred while deleting the user.");
-                    }
-                },
-                error: function (xhr, status, error) {
-                    alert("An error occurred while deleting the user: " + xhr.responseText);
-                }
-            });
-        }
-
-        // Initially load the user list
-        loadUserList();
-    });
-</script>
-
-
-
-
-
-
-@*  @foreach (var d in Model)
-                {
-                <tr class="text-center">
-                <td>@d.Id</td>
-                <td>@d.FirstName</td>
-                <td>@d.LastName</td>
-                <td>@d.DOB</td>
-                <td>@d.Gender</td>
-                <td>@d.UserName</td>
-                <td>@d.Email</td>
-                <td>@d.PhoneNumber</td>
-                <td> <a class="btn btn-sm btn-info" asp-action="DeleteUser" asp-controller="Admin" asp-route-email="@d.Email">Delete</a></td>
-
-
-                </tr>
-                }
-                *@
+@*                  *@
