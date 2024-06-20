@@ -45,7 +45,7 @@ namespace Site.Controllers
         
         public async Task<JsonResult> OrderList1()
         {
-            var result = _orderServices.OrderList();
+            var result = await _orderServices.OrderList();
             return Json(new { data = result });
         }
         public async Task<IActionResult> AddQuantityforProduct(int Id, int Quantity)
