@@ -42,11 +42,11 @@ namespace Site.Controllers
 
 
         [HttpGet]
-        [Authorize(Roles = "ADMIN")]
+        
         public async Task<JsonResult> OrderList1()
         {
-            var result = await _orderServices.OrderList();
-            return Json(result);
+            var result = _orderServices.OrderList();
+            return Json(new { data = result });
         }
         public async Task<IActionResult> AddQuantityforProduct(int Id, int Quantity)
 		{

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ModelAccessLayer.Models.OrderModel>
+﻿
 
 @{
     ViewData["Title"] = "OrderList1";
@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <!-- Bootstrap JS -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <p>
     <button class="btn btn-success">
         <a asp-action="Create">Create New</a>
@@ -20,22 +21,22 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Id)
+                <h3>Id</h3>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ProductName)
+                <h3>Product Name</h3>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.price)
+                <h3>Price</h3>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ProductId)
+                <h3>Product Id</h3>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.quantity)
+                <h3>Quantity</h3>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Email)
+                <h3>Email</h3>
             </th>
             <th></th>
         </tr>
@@ -45,15 +46,10 @@
     </tbody>
 </table>
 
-
+ 
                     
 <script>
-
-
-
-
-
-        // Load Data in Table when document is ready
+       // Load Data in Table when document is ready
         $(document).ready(function () {
             loadData();
         });
@@ -81,4 +77,4 @@
                 }
             });
         }
-                    </script>
+ </script>

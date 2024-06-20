@@ -146,7 +146,7 @@ namespace ShoppingSite.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "ADMIN")]
+        /*[Authorize(Roles = "ADMIN")]*/
         public IActionResult RegistrationAdmin()
         {
             return View();
