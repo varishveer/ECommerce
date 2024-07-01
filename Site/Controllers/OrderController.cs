@@ -42,8 +42,11 @@ namespace Site.Controllers
 
 
         [HttpGet]
-        
-        public async Task<JsonResult> OrderList1()
+        public IActionResult OrderList1()
+        {
+            return View();
+        }
+        public async Task<JsonResult> OrderList2()
         {
             var result = await _orderServices.OrderList();
             return Json(new { data = result });

@@ -34,8 +34,7 @@
               "RelativeToolTip": "BusinessAccessLayer\\Implementation\\OrderServices.cs",
               "ViewState": "AQIAACAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T10:06:41.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T10:06:41.647Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "Site\\Views\\Order\\OrderList1.cshtml",
               "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Views\\Order\\OrderList1.cshtml",
               "RelativeToolTip": "Site\\Views\\Order\\OrderList1.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAApAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADoAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-24T08:54:43.828Z",
               "EditorCaption": ""
@@ -58,7 +57,7 @@
               "RelativeDocumentMoniker": "Site\\Controllers\\OrderController.cs",
               "ToolTip": "D:\\Study\\Asp.NetCore\\Code First Aproach\\OnlineStore\\Site\\ECommerce\\Site\\Controllers\\OrderController.cs",
               "RelativeToolTip": "Site\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAeAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAcwCwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T08:52:29.469Z",
               "EditorCaption": ""
